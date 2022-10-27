@@ -96,7 +96,7 @@ module GHC.TypeLits.Compare
 
 import           Data.Kind
 import           Data.Type.Equality
-import           GHC.TypeLits
+import           GHC.TypeLits hiding (cmpNat)
 import           Unsafe.Coerce
 import           Data.GADT.Compare
 

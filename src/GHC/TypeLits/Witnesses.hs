@@ -119,9 +119,9 @@ import           Data.GADT.Show
 import           Data.Proxy
 import           Data.Type.Equality
 import           GHC.Natural
-import           GHC.TypeLits hiding         (natVal, someNatVal)
+import           GHC.TypeLits hiding         (natVal, someNatVal, cmpNat)
 import           GHC.TypeLits.Compare hiding ((%<=?))
-import           GHC.TypeNats
+import           GHC.TypeNats hiding (cmpNat)
 import           Unsafe.Coerce
 import qualified GHC.TypeLits.Compare        as Comp
 
